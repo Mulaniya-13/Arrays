@@ -13,6 +13,7 @@ void maxProfit(int *prices,int n){
         int currPrice=prices[i]-bestBuy[i];
         maxProfit=max(maxProfit,currPrice);
     }
+    //O(n +n) = O(2n) = O(n)
     cout<<"Maximum Profit is = "<<maxProfit<<endl;
 }
 
